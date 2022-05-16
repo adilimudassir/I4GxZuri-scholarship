@@ -1,13 +1,14 @@
 """
 This file is part of the tasks for the Python-calculator project. It is part of the tasks/projects carried out in 
-the I4gxZuri Scholarship in the Fullstack Track.
+the I4GxZuri Scholarship in the Fullstack Track.
+
 
 Author: Mudassir Adili Ahmad (adilimudassir)
 Date: 2022-05-16
 """
 
 #calculator function
-def calculator(a,b,c):
+def calculator(a, b, c):
     """
     This function is the main function of the calculator project. It takes three arguments:
     a - the first number
@@ -38,7 +39,7 @@ def main():
     #get the operator
     c = input('Enter the operator: ')
     #get the result
-    result = calculator(a,b,c)
+    result = calculator(a, b, c)
     #print the result
     print('The result is: ', result)
 
