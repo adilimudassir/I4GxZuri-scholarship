@@ -4,5 +4,5 @@ This project contains the mini tasks and projects carried out in the I4GxZuri Sc
 ## Projects/Tasks included
 
 - Adding integers with Python
-- Python Calculator
+- Python Simple CLI Calculator
 - Print Hello World with Python
