@@ -7,3 +7,4 @@ This project contains the mini tasks and projects carried out in the I4GxZuri Sc
 - Python Simple CLI Calculator
 - Print Hello World with Python
 - Counting words in a text Python
+- HTML Semantic
