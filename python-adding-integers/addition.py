@@ -7,14 +7,8 @@ Author: Mudassir Adili Ahmad (adilimudassir)
 Date: 2022-05-16
 """
 
-#add two integers
-def add_two_integers(a, b):
-    """
-    This function is the main function of the Adding 2 integers task. It takes two arguments:
-    a - the first number
-    b - the second number
-    and returns the result of the addition.
-    """
-    return a + b
+#num variables
+num1 = 2;
+num2 = 3;
 
-print(add_two_integers(1, 2))
+print(num1 + num2);

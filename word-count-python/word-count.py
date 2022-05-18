@@ -1,5 +1,5 @@
 """
-This file is part of the tasks for the Counting Words tasks. It is part of the tasks/projects carried out in 
+This file is part of the tasks for the Counting Words. It is part of the tasks/projects carried out in 
 the I4GxZuri Scholarship in the Fullstack Track.
 
 
