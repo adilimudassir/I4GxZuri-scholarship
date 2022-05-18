@@ -1,5 +1,5 @@
 """
-This file is part of the tasks for the Python-calculator project. It is part of the tasks/projects carried out in 
+This file is part of the tasks for the Python-calculator task. It is part of the tasks/projects carried out in 
 the I4GxZuri Scholarship in the Fullstack Track.
 
 
@@ -47,6 +47,5 @@ def main():
 
 
 #call the main function
-if __name__ == '__main__':
-    main()
+main()
 
