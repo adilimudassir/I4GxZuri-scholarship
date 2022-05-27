@@ -9,3 +9,4 @@ This project contains the mini tasks and projects carried out in the I4GxZuri Sc
 - Counting words in a text Python
 - HTML Semantic
 - Python Classes and Objects
+- Python Read text files
