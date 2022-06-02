@@ -12,3 +12,4 @@ This project contains the mini tasks and projects carried out in the I4GxZuri Sc
 - Python Read text files
 - Python Finding Anagrams
 - Python Rock Paper Scissors 
+- Python Django Starter Project
