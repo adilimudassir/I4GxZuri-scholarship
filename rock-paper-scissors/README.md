@@ -7,3 +7,10 @@ This is a Rock Paper Scissors game program using Python.
 - If user input is invalid (not amongst our options), the user is asked for their input again
 - If there is a winner, the winner is displayed, and the program ends. 
 - If it's a tie (the computer and player pick the same move), the game restarts again
+
+## How to play
+
+Run
+```python
+python3 main.py
+```
