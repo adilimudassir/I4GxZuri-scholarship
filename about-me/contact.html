@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="container w-screen grid grid-cols-1 place-content-between h-screen overflow-y-auto overflow-x-hidden"
+  >
+    <header
+      class="w-screen h-32 bg-red-700 text-red-200 flex items-center justify-between px-5"
+    >
+      <div class="flex justify-center w-3/12">
+        <h1 class="text-4xl uppercase font-bold">Contact</h1>
+      </div>
+      <ul class="h-22 style-none grid grid-cols-4 justify-items-stretch gap-2">
+        <li
+          class="h-10 flex justify-center items-center hover:text-red-50 hover:bg-red-800 cursor-pointer px-5 py-5"
+        >
+          <a href="index.html">About</a>
+        </li>
+        <li
+          class="h-10 flex justify-center items-center hover:text-red-50 hover:bg-red-800 ho ver:cursor-pointer px-5 py-5 text-red-50 bg-red-800"
+        >
+          <a href="contact.html">Contact</a>
+        </li>
+        <li
+          class="h-10 flex justify-center items-center hover:text-red-50 hover:bg-red-800 hover:cursor-pointer px-5 py-5"
+        >
+          <a href="registration.html"> Registration </a>
+        </li>
+        <li
+          class="h-10 flex justify-center items-center hover:text-red-50 hover:bg-red-800 hover:cursor-pointer px-5 py-5"
+        >
+          <a href="login.html"> Login </a>
+        </li>
+      </ul>
+    </header>
+    <main class="flex flex-col w-5/6 mx-auto my-3 text-red-800">
+      <fieldset
+        class="shadow-lg shadow-red-800/50 py-10 px-5 w-4/5 rounded-lg gap-2"
+      >
+        <legend class="text-4xl px-4 py-5 rounded-lg">
+          Feel free to contact me via the form below
+        </legend>
+        <form action="" class="flex flex-col justify-start">
+          <div class="mx-2 my-2 flex flex-col gap-3 items-start">
+            <label for="name">Name</label>
+            <input
+              required
+              type="text"
+              id="name"
+              name="name"
+              class="border-2 rounded-lg border-red-800 h-10 w-full shadow-lg p-2 focus:outline-none focus:border-2 focus:border-red-500 focus:p-2 focus:shadow-lg focus:ring focus:ring-red-100"
+            />
+          </div>
+          <div class="mx-2 my-2 flex flex-col gap-3 items-start">
+            <label for="email">Email</label>
+            <input
+              required
+              type="email"
+              id="email"
+              name="email"
+              class="border-2 rounded-lg border-red-800 h-10 w-full shadow-lg p-2 focus:outline-none focus:border-2 focus:border-red-500 focus:p-2 focus:shadow-lg focus:ring focus:ring-red-100"
+            />
+          </div>
+          <div class="mx-2 my-2 flex flex-col gap-3 items-start">
+            <label for="message">Message</label>
+            <textarea
+              required
+              rows="5"
+              cols="5"
+              id="message"
+              name="message"
+              class="border-2 rounded-lg border-red-800 h-auto w-full shadow-lg p-2 focus:outline-none focus:border-2 focus:border-red-500 focus:p-2 focus:shadow-lg focus:ring focus:ring-red-100"
+            ></textarea>
+          </div>
+          <div class="mx-2 my-2 flex flex-col gap-3 items-start">
+            <input
+              type="submit"
+              class="w-1/6 p-2 bg-red-800 shadow-lg rounded-lg uppercase text-lg text-white hover:bg-red-700 hover:text-red-200 cursor-pointer text-center"
+              value="Send"
+            />
+          </div>
+        </form>
+      </fieldset>
+    </main>
+    <footer
+      class="w-screen h-14 bg-red-800 text-red-200 flex items-center justify-center px-2"
+    >
+      Copyright &copy; 2022
+    </footer>
+  </body>
+</html>
