@@ -1,5 +1,7 @@
-## i4GxZuri Scholarship
-This project contains the mini tasks and projects carried out in the I4GxZuri Scholarship under the fullstack scholarship
+# i4GxZuri Scholarship
+This project contains the mini tasks and projects carried out in the I4GxZuri Scholarship under the fullstack Track
+
+###This project has no responsiveness as it is expected to be simple and beginner-ish
 
 ## Projects/Tasks included
 
