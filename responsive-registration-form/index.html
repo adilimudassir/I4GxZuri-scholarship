@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Responsive Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="welcome">
+        <h1>Lean to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable
+        </p>
+      </section>
+      <section class="form">
+        <div class="try">
+          <strong>Try it free 7 days</strong> then $20/month, thereafter
+        </div>
+        <form action="">
+          <div class="form-control">
+            <input
+              type="text"
+              name="first_name"
+              placeholder="First Name"
+              required
+            />
+            <span class="invalid-text">First name cannot be empty</span>
+          </div>
+          <div class="form-control">
+            <input
+              type="text"
+              name="last_name"
+              placeholder="Last Name"
+              required
+            />
+            <span class="invalid-text">Last Name cannot be empty</span>
+          </div>
+          <div class="form-control">
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              required
+            />
+            <span class="invalid-text">Looks like this is not an email</span>
+          </div>
+          <div class="form-control">
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              required
+            />
+
+            <span class="invalid-text">Password cannot be empty</span>
+          </div>
+          <input type="submit" value="CLAIM YOUR FREE TRAIL" />
+          <p>
+            By clicking the button, you are agreeing to our
+            <strong>Terms and Services</strong>
+          </p>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
