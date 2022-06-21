@@ -16,8 +16,8 @@ def find_anagrams(word, anagram):
     anagram_list.sort()
 
     # trim whitespace
-    word = word.replace(" ", "")
-    anagram = anagram.replace(" ", "")
+    word_list = word_list.replace(" ", "")
+    anagram_list = anagram_list.replace(" ", "")
 
     iteration_position = 0
     matches = True
